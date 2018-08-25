@@ -46,7 +46,7 @@ learn more about LBPH algoritm reading this link in Medium site and more details
 first run terminal for cmd and using  "git clone https://github.com/amirtaherkhani/Opencv-Face-recognition.git " to        download repository and cd to the folder project and run mkdir dataset & trainer   so first run dataset.py them run          trainig.py and last run face_recognition.py 
    
 ## change Face Id name : 
-    change or increase  number of name  and id for show :
+    change or increase  number of name  and id for show face name  :
  ```
    for(x,y,w,h) in faces:
         cv2.rectangle(im, (x-8,y-8), (x+w+10,y+h+10), (100,255,100), 6)
