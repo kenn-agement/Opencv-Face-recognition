@@ -43,7 +43,7 @@ learn more about LBPH algoritm reading this link in Medium site and more details
    
    
 # how to using ? 
-first run terminal for cmd and using  "git clone https://github.com/amirtaherkhani/Opencv-Face-recognition.git " to        download repository and cd to the folder project and run mkdir dataset & trainer   so first run dataset.py them run          trainig.py and last run face_recognition.py 
+first run terminal for cmd and using  "git clone https://github.com/amirtaherkhani/Opencv-Face-recognition.git " to        download repository and cd to the folder project and run mkdir dataset & trainer so at first run dataset.py them run          trainig.py and  run at the end face_recognition.py 
    
 ## change Face Id name : 
     change or increase  number of name  and id for show face name  :
