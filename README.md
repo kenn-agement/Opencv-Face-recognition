@@ -1,6 +1,11 @@
 # Opencv-Face-recognition 
 face recognition with opencv webcam in python  
 -using Cascade Classifier for detection and using face_dataset creator for create custome models and training .yml file
+#
+
+![alt text](https://cdn-images-1.medium.com/max/1600/1*wb6dl0oibAdMa8rlnPlUzQ.jpeg)
+#
+#
 # Face Recognition: Understanding LBPH Algorithm
 Human beings perform face recognition automatically every day and practically with no effort.
 Although it sounds like a very simple task for us, it has proven to be a complex task for a computer, as it has many variables that can impair the accuracy of the methods, for example: illumination variation, low resolution, occlusion, amongst other.
