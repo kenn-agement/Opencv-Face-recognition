@@ -32,7 +32,27 @@ learn more about LBPH algoritm reading this link in Medium site and more details
 
 
 ## What is haar cascade?
-    [haar cascade on quora ](https://www.quora.com/What-is-haar-cascade)
+   * [quora answer](https://www.quora.com/What-is-haar-cascade)
 
 
+
+## How do I make a Haar cascade classifier??
+   * [quora answer](https://www.quora.com/How-do-I-make-a-Haar-cascade-classifier)
+   
+   
+# how to using ? 
+first run terminal for cmd and using  "git clone https://github.com/amirtaherkhani/Opencv-Face-recognition.git " to        download repository and cd to the folder project and run mkdir dataset & trainer   so first run dataset.py them run          trainig.py and last run face_recognition.py 
+   
+## change Face Id name : 
+    change or increase name 
+   for(x,y,w,h) in faces:
+        cv2.rectangle(im, (x-8,y-8), (x+w+10,y+h+10), (100,255,100), 6)
+        Id,conf = recognizer.predict(gray[y:y+h,x:x+w]) # get list of gray image of faces and id's
+        if (conf <= 80):
+            if (Id == 1):
+                Id = "REZA" # user id =1 /name = REZA
+            elif (Id == 2):
+                Id = "amir" # user id =2 /name = amir
+        else:
+            Id = "Unknown"
 
