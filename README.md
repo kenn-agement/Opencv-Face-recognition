@@ -22,7 +22,7 @@ learn more about LBPH algoritm reading this link in Medium site and more details
 learning more ...  [Medium Page](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b)
 
 ##### project Files : 
-![Screenshot](Project structure.png)
+![Project structure](Project structure.png)
  * dataset Folder : folder for save dataset of your face 
  * trainer Folder : forder for save traing model output 
  * face_datasets.py : python file for face detection and create picture of face 
