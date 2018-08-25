@@ -19,14 +19,20 @@ Identification or facial recognition: it basically compares the input facial ima
 in this project using LBPH algorithm for recognition face 
 ## for learning more : 
 learn more about LBPH algoritm reading this link in Medium site and more details using wikipedia 
-learning more ...  [Medium Page](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b)
+* learning more ...  [Medium Page](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b)
 
 ##### project Files : 
-![ScreenShot](ScreenShot.png)
+<img src="ScreenShot.png" width="500">
  * dataset Folder : folder for save dataset of your face 
  * trainer Folder : forder for save traing model output 
  * face_datasets.py : python file for face detection and create picture of face 
  * face_recognition : recognition face with LBPH algorithm 
  * haarcascade_frontalface_default.xml :Haar cascade xml file for face objects and feathers 
  * training : python file for train models 
+
+
+## What is haar cascade?
+    [haar cascade on quora ](https://www.quora.com/What-is-haar-cascade)
+
+
 
