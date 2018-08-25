@@ -22,7 +22,9 @@ learn more about LBPH algoritm reading this link in Medium site and more details
 * learning more ...  [Medium Page](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b)
 
 ##### project Files : 
-<img src="ScreenShot.png" width="500">
+
+  <img src="ScreenShot.png" width="500">
+
  * dataset Folder : folder for save dataset of your face 
  * trainer Folder : forder for save traing model output 
  * face_datasets.py : python file for face detection and create picture of face 
@@ -44,7 +46,8 @@ learn more about LBPH algoritm reading this link in Medium site and more details
 first run terminal for cmd and using  "git clone https://github.com/amirtaherkhani/Opencv-Face-recognition.git " to        download repository and cd to the folder project and run mkdir dataset & trainer   so first run dataset.py them run          trainig.py and last run face_recognition.py 
    
 ## change Face Id name : 
-    change or increase name 
+    change or increase  number of name  and id for show :
+ ```
    for(x,y,w,h) in faces:
         cv2.rectangle(im, (x-8,y-8), (x+w+10,y+h+10), (100,255,100), 6)
         Id,conf = recognizer.predict(gray[y:y+h,x:x+w]) # get list of gray image of faces and id's
@@ -56,3 +59,4 @@ first run terminal for cmd and using  "git clone https://github.com/amirtaherkha
         else:
             Id = "Unknown"
 
+```
