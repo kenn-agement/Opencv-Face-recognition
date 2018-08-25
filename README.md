@@ -1,5 +1,5 @@
 # Opencv-Face-recognition 
-face recognition with opencv in python 
+face recognition with opencv webcam in python  
 -using Cascade Classifier for detection and using face_dataset creator for create custome models and training .yml file
 # Face Recognition: Understanding LBPH Algorithm
 Human beings perform face recognition automatically every day and practically with no effort.
@@ -12,7 +12,16 @@ The face recognition systems can operate basically in two modes:
 Verification or authentication of a facial image: it basically compares the input facial image with the facial image related to the user which is requiring the authentication. It is basically a 1x1 comparison.
 Identification or facial recognition: it basically compares the input facial image with all facial images from a dataset with the aim to find the user that matches that face. It is basically a 1xN comparison.
 in this project using LBPH algorithm for recognition face 
-# for learning more : 
-learn more about LBPH algoritm reading this link in Medium site and more details using wikipedia https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b
-![alt text](https://cdn-images-1.medium.com/max/1600/1*wb6dl0oibAdMa8rlnPlUzQ.jpeg)
-# project Files : 
+## for learning more : 
+learn more about LBPH algoritm reading this link in Medium site and more details using wikipedia 
+learning more ...  [Medium Page](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b)
+
+##### project Files : 
+![Screenshot](Project structure.png)
+ * dataset Folder : folder for save dataset of your face 
+ * trainer Folder : forder for save traing model output 
+ * face_datasets.py : python file for face detection and create picture of face 
+ * face_recognition : recognition face with LBPH algorithm 
+ * haarcascade_frontalface_default.xml :Haar cascade xml file for face objects and feathers 
+ * training : python file for train models 
+
